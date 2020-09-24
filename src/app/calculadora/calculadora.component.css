@@ -1,0 +1,23 @@
+.bodycalculadora{
+    width: 190px;
+    margin: 7px auto;
+}
+
+
+.input-calculadora input{
+    width: 100%;
+}
+
+.info-resultado{
+    width: 100%;
+    text-align: right;
+}
+
+button {
+    width: 47px;
+}
+
+.alinhamento-direita{
+    text-align: right;
+    margin-right: 2px;
+}

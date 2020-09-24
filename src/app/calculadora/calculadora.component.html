@@ -1,0 +1,47 @@
+<div class="bodycalculadora">
+ 
+  <div class="input-calculadora">
+        <input type="text" readonly class="form-control" value="{{numDigitado}}">
+  </div>
+
+  <div class="info-resultado">
+    <label>{{formula}}</label>
+  </div>
+
+  <div>
+      <button class="btn btn-light" (click) = clear()>C</button>
+      <button class="btn btn-light" (click) = clearEntity()>CE</button>
+      <button class="btn btn-light" (click) = backspace()>
+        <i class="fas fa-backspace"></i>
+      </button>
+      <button class="btn btn-light" (click) = dividir()>/</button>
+  </div>
+
+  <div>
+    <button class="btn btn-light" (click) = digitaValor(7)>7</button>
+    <button class="btn btn-light" (click) = digitaValor(8)>8</button>
+    <button class="btn btn-light" (click) = digitaValor(9)>9</button>
+    <button class="btn btn-light" (click) = multiplicar() >X</button>
+  </div>
+
+  <div>
+    <button class="btn btn-light" (click) = digitaValor(4)>4</button>
+    <button class="btn btn-light" (click) = digitaValor(5)>5</button>
+    <button class="btn btn-light" (click) = digitaValor(6)>6</button>
+    <button class="btn btn-light" (click) = subtrair()>-</button>
+  </div>
+
+  <div>
+    <button class="btn btn-light" (click) = digitaValor(1) >1</button>
+    <button class="btn btn-light" (click) = digitaValor(2) >2</button>
+    <button class="btn btn-light" (click) = digitaValor(3) >3</button>
+    <button class="btn btn-light" (click) = somar()>+</button>
+  </div>
+
+  <div class="alinhamento-direita">
+    <button class="btn btn-light" (click) = digitaValor(0)>0</button>
+    <button class="btn btn-light" (click) = addVirgula()>,</button>
+    <button class="btn btn-light" (click) = calcular() >=</button>
+  </div>
+
+</div>
